@@ -36,13 +36,13 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://facebook.com">
+        <a href="https://facebook.com" target="_blank" rel="noreferrer">
           <FaFacebook />
         </a>
-        <a href="https://instagram.com">
+        <a href="https://instagram.com" target="_blank" rel="noreferrer">
           <FiInstagram />
         </a>
-        <a href="https://gmail.com">
+        <a href="https://gmail.com" target="_blank" rel="noreferrer">
           <SiGmail />
         </a>
       </div>
