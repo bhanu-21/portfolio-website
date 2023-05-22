@@ -40,10 +40,15 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
-            odit porro molestiae ipsum deserunt maxime sunt facilis voluptates
-            omnis amet ducimus tempora ipsa itaque, repellendus expedita
-            laudantium at id aliquid!
+            Myself Bhanupriya Sahoo. I have been working as a React Frontend
+            Developer in Apie Technologies Pvt Ltd previously. I have 1.1 year
+            of experience in web technologies like HTML(5), CSS(3), Javascript,
+            MongoDB, Firebase, Bootstrap, Ionic but my core competency is in
+            ReactJS/React-Native. As part of my 1.1 year of experience I have
+            worked on different set of projects but spend longer time on
+            PrinstaIndia as it was my longest running project till now and
+            worked on Endura and Inc Solution as it was my very last project.
+            Also I have made some single handed react projects too.
           </p>
 
           <a href="#contact" className="btn btn-primary">
