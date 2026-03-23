@@ -9,14 +9,21 @@ const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
-    e.preventdefault();
+    e.preventDefault();
     emailjs.sendForm(
-      "service_wra3l9f",
-      "template_mgvmm7k",
+      process.env.REACT_APP_EMAILJS_SERVICE_ID,
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
       form.current,
-      "WIQU4t6k5pm6zmigi" // public key of the account
-    );
-    e.target.reset();
+      process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+    )
+    .then(() => {
+      alert('Email sent successfully!');
+      e.target.reset();
+    })
+    .catch((error) => {
+      console.error('Email error:', error);
+      alert('Failed to send email. Please try again.');
+    });
   };
 
   return (
@@ -31,7 +38,7 @@ const Contact = () => {
             <h4>Email</h4>
             <h5>sbhanupriya03@gmail.com</h5>
             <a
-              href="mailto:dummyegator@gmail.com"
+              href="mailto:sbhanupriya03@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -44,7 +51,7 @@ const Contact = () => {
             <h4>Messenger</h4>
             <h5>Bhanupriya Sahoo</h5>
             <a
-              href="https://m.me/ernest.achiever"
+              href="https://m.me/bhanupriya.sahoo"
               target="_blank"
               rel="noreferrer"
             >
@@ -57,7 +64,7 @@ const Contact = () => {
             <h4>Whatsapp</h4>
             <h5>+123456789</h5>
             <a
-              href="https://api.whatsapp.com/send?phone+917377357454"
+              href="https://api.whatsapp.com/send?phone=+917377357454"
               target="_blank"
               rel="noreferrer"
             >

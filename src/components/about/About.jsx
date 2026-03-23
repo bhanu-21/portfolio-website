@@ -46,9 +46,9 @@ const About = () => {
             MongoDB, Firebase, Bootstrap, Ionic but my core competency is in
             ReactJS/React-Native. As part of my 1.1 year of experience I have
             worked on different set of projects but spend longer time on
-            PrinstaIndia as it was my longest running project till now and
-            worked on Endura and Inc Solution as it was my very last project.
-            Also I have made some single handed react projects too.
+            PrinstaIndia as it was my longest running project and worked on
+            Endura and Inc Solution as it was my very last project. Also I have
+            made some single handed react projects too.
           </p>
 
           <a href="#contact" className="btn btn-primary">
