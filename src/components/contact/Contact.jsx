@@ -16,14 +16,14 @@ const Contact = () => {
       form.current,
       process.env.REACT_APP_EMAILJS_PUBLIC_KEY
     )
-    .then(() => {
-      alert('Email sent successfully!');
-      e.target.reset();
-    })
-    .catch((error) => {
-      console.error('Email error:', error);
-      alert('Failed to send email. Please try again.');
-    });
+      .then(() => {
+        alert('Email sent successfully!');
+        e.target.reset();
+      })
+      .catch((error) => {
+        console.error('Email error:', error);
+        alert('Failed to send email. Please try again.');
+      });
   };
 
   return (
