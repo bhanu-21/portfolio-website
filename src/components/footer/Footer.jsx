@@ -6,7 +6,7 @@ import { SiGmail } from "react-icons/si";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
+      <a href="/" className="footer__logo">
         Bhanu Priya's Portfolio
       </a>
 
