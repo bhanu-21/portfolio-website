@@ -1,54 +1,29 @@
-import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Crypto Currency Dashboard & Financial Visualization",
-    github: "https://github.com",
+    title: "Todo Application",
+    github: "https://github.com/bhanu-21/Todo-Application",
     demo: "https://dribbble.com/shots/16673715-crypto-currency-dashboards-and-data-visualization",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com",
+    title: "Personal Portfolio",
+    github: "https://github.com/bhanu-21/portfolio-website",
     demo: "https://dribbble.com/shots/16580766-Orion-UI-kit-charts-templates-infographics-in-Figma",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Figma dashboard UI kit for data design web apps",
-    github: "https://github.com",
+    title: "Finance App",
+    github: "https://github.com/bhanu-21/next16-finance-app",
     demo: "https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps",
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: "Maintaining tasks and tracking progress",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress",
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma",
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/15887665-Orion-UI-kit-charts-templates-infographics-in-Figma",
   },
 ];
 

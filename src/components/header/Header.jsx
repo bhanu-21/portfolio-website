@@ -1,4 +1,3 @@
-import React from "react";
 import "./header.css";
 import CTA from "./CTA";
 import SELF from "../../assets/self.jpg";
@@ -9,13 +8,13 @@ const Header = () => {
     <header>
       <div className="container header__container">
         <h5>Hello I'm</h5>
-        <h1>Bhanupriya Sahoo</h1>
-        <h5 className="text-light">Frontend Developer</h5>
+        <h1>Bhanu Priya Sahoo</h1>
+        <h5 className="text-light">Web Developer</h5>
         <CTA />
         <HeaderSocials />
 
         <div className="me">
-          <img src={SELF} alt="Bhanupriya Sahoo Portfolio Profile Picture" />
+          <img className="me-img" src={SELF} alt="Bhanu Priya Sahoo Portfolio Profile Picture" />
         </div>
 
         <a href="#contact" className="scroll__down">

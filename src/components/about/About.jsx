@@ -1,4 +1,3 @@
-import React from "react";
 import "./about.css";
 import ME1 from "../../assets/me1.jpeg";
 import { FaAward } from "react-icons/fa";
@@ -23,37 +22,29 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1.1 Year Working</small>
+              <small>2 Years</small>
             </article>
 
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>3 Clients and 1 internal client</small>
+              <small>5 Clients and 1 internal client</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>3 client projects & 1 internal project</small>
+              <small>7 client projects</small>
             </article>
           </div>
 
           <p>
-            Myself Bhanupriya Sahoo. I have been working as a React Frontend
-            Developer in Apie Technologies Pvt Ltd previously. I have 1.1 year
-            of experience in web technologies like HTML(5), CSS(3), Javascript,
-            MongoDB, Firebase, Bootstrap, Ionic but my core competency is in
-            ReactJS/React-Native. As part of my 1.1 year of experience I have
-            worked on different set of projects but spend longer time on
-            PrinstaIndia as it was my longest running project and worked on
-            Endura and Inc Solution as it was my very last project. Also I have
-            made some single handed react projects too.
+            My name is Bhanu Priya Sahoo. I completed my B.Com in Accounting from Ravenshaw University in 2018.
+            After graduation, I was preparing for banking and government exams for some time. During that period, I developed a strong interest in the IT field, especially web development, so I decided to move into software development and started building my skills in this area.<br />
+            I have around two years of professional experience in web and software development. I have worked with technologies like HTML, CSS, JavaScript, React.js, WordPress and Wix. In my previous roles, I worked on website development, responsive design, performance optimization, API-related tasks, bug fixing, and deployment.<br />
+            After my previous job, I took a career break due to maternity. During this break, I continued learning and recently expanded my technical skills. I have been practicing Next.js and Supabase, and I have also started learning AWS and cloud concepts. I have been working on these technologies through hands-on practice and projects.<br />
+            Now, I am looking to restart my career in a development role where I can use my previous experience, apply my recent skills, and continue growing as a developer.
           </p>
-
-          <a href="#contact" className="btn btn-primary">
-            Let's Talk
-          </a>
         </div>
       </div>
     </section>

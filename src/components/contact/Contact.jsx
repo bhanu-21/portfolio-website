@@ -1,7 +1,7 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
-import { RiMessengerLine } from "react-icons/ri";
+import { BsLinkedin } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 import emailjs from "emailjs-com";
 
@@ -36,9 +36,9 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>sbhanupriya03@gmail.com</h5>
+            <h5>bhanupriyas617@gmail.com</h5>
             <a
-              href="mailto:sbhanupriya03@gmail.com"
+              href="mailto:bhanupriyas617@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -47,11 +47,11 @@ const Contact = () => {
           </article>
 
           <article className="contact__option">
-            <RiMessengerLine className="contact__option-icon" />
-            <h4>Messenger</h4>
-            <h5>Bhanupriya Sahoo</h5>
+            <BsLinkedin className="contact__option-icon" />
+            <h4>Linkedln</h4>
+            <h5>Bhanu Priya Sahoo</h5>
             <a
-              href="https://m.me/bhanupriya.sahoo"
+              href="https://linkedin.com/in/bhanupriya-sahoo"
               target="_blank"
               rel="noreferrer"
             >
@@ -62,7 +62,7 @@ const Contact = () => {
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
             <h4>Whatsapp</h4>
-            <h5>+123456789</h5>
+            <h5>+9194381****6</h5>
             <a
               href="https://api.whatsapp.com/send?phone=+917377357454"
               target="_blank"
